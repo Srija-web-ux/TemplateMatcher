@@ -20,8 +20,8 @@ The template consists of a combination of rules:
 - A C# development environment like Visual Studio.
 
 ### Clone the Repository
-git clone https://github.com/yourusername/TemplateMatcher.git
-cd TemplateMatcher
+- git clone https://github.com/Srija-web-ux/TemplateMatcher.git
+- cd TemplateMatcher
 
 ### Running the Project
 dotnet build
@@ -32,6 +32,7 @@ dotnet test
 ### Usage
 
 Example : Match the text against a template
+
 Template : (B|D|E)**AC*
 Text : BPQACC
 IsMatch((B|D|E)**AC*, BPQACC) == true
