@@ -26,6 +26,8 @@ The template consists of a combination of rules:
 ### Running the Project
 dotnet build
 
+Created test project for testing all the rules individually using xUnit
+
 ### Running the tests
 dotnet test
 
