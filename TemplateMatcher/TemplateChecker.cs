@@ -7,7 +7,7 @@ public class TemplateChecker : IChecker
 {
     public bool IsMatch(string template, string text)
     {
-        List<IRule> rules = RuleFormat.ParseTemplate(template, text);
+        List<IRule> rules = RuleFormat.ParseTemplate(template, text); // Parsing the template
 
         for (int i = 0; i < text.Length; i++)
         {

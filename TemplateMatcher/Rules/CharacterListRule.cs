@@ -9,7 +9,7 @@ public class CharacterListRule : IRule
 
     public CharacterListRule(char[] validCharacters)
     {
-        allowedChars = new HashSet<char>(validCharacters.Select(char.ToUpper)); // Matches any one (Case insensitive)
+        allowedChars = new HashSet<char>(validCharacters.Select(char.ToUpper)); // Matches any one char (Case insensitive)
     }
 
     public bool Matches(char c) => allowedChars.Contains(char.ToUpper(c));
